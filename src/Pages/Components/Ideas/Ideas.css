@@ -1,0 +1,47 @@
+@media (max-width:500px){
+  .Ideas{
+    height: fit-content !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-inline: auto !important;
+    width: 95% !important;
+  }
+
+  .one-idea{
+    width: 100% !important;
+    height: 30vh !important;
+  }
+}
+
+
+.Ideas {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    height: 56.4vw;
+    row-gap: 1vw;
+    column-gap: 1vw;
+    align-content: flex-start;
+
+  }
+
+  .one-idea {
+    display: flex;
+    position: relative; 
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 1vw; 
+    left: 1vw; 
+    width: 3vw;
+    height: 3vh;
+    z-index: 1; 
+    border-radius: 15px;
+  }
+  
+  .one-idea img {
+    border-radius: 15px;
+  }
+  

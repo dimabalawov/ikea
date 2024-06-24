@@ -1,0 +1,26 @@
+.gallery
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 36px;
+    row-gap:20px;
+    column-gap: 2%;
+}
+
+.gallery-one-image{
+    width: 40vw;
+}
+
+@media (max-width:700px){
+    .gallery
+    {
+        flex-direction: column;
+        
+    }
+    .gallery-one-image
+    {
+        width: 100% !important;
+        height: 30vh !important;
+    }
+}

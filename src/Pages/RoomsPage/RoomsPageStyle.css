@@ -1,0 +1,20 @@
+.AllPage{
+    width: 100%;
+    overflow: hidden;
+}
+
+.Rooms{
+    font-family: 'Montserrat';
+    padding-inline: 8%;
+    padding-bottom: 4.1vw;
+}
+
+#moreCategories
+{
+    width: 23.6vw;
+    height: 1vw;
+    margin-top: 1.1vw;
+    text-align: start;
+}
+
+

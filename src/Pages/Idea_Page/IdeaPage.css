@@ -1,0 +1,23 @@
+@media (max-width:1350px){
+    .IdeaCards{
+        flex-direction: column !important;
+    }
+}
+
+.Idea_Page{
+    font-family: 'Montserrat', sans-serif;
+    padding-inline:8%;
+}
+
+
+.IdeaCards{
+    display: flex;
+    flex-direction: row;
+    gap:1.1vw;
+}
+
+
+.ImagesRow{
+    display: flex;
+    flex-direction: row;
+}

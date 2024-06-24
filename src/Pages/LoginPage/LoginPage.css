@@ -1,0 +1,170 @@
+@media (max-width:960px){
+    .Page{
+        flex-direction: column !important;
+    }
+
+    .ImagePart{
+        width: 100% !important;
+    }
+
+    .ImagePartText{
+        margin-top: 10px !important;
+        position: relative;
+        bottom: 5vh !important;
+        width: 80% !important;
+    }
+
+    .LoginFormPart{
+        width: 90% !important;
+        margin-top: 1.5vh !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: auto !important;
+        padding-bottom: 117px;
+    }
+
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100% !important;
+    }
+
+    .login-label{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    input,.password-input,.login-label small, .login-label a,#save-data-div,#create-acc{
+        width: 100% !important;
+    }
+
+    #save-data-div{
+        display: flex;
+    }
+
+    #info-button{
+        margin-left: auto !important;
+    }
+
+
+}
+
+
+
+
+.ImagePart{
+    background: url(./assets/MainImage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    top: -3px;
+}
+
+.LoginFormPart{
+    margin-top: 173px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8vw;
+}
+
+
+.ImagePartText{
+    text-transform: uppercase;
+    width: 24.5vw;
+    color : var(--black-color);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: center;
+    margin-top: 163px;
+    margin-inline: auto;
+    padding: 10px 10px 10px 0px;
+}
+
+input[type="email" i]{
+    width: 21.85vw ;
+}
+
+.password-input
+{
+    width: 23vw;
+}
+
+
+.login-label{
+    margin-bottom: 40px;
+}
+
+
+
+.password-input{
+    display: flex;
+    flex-direction: row;
+}
+
+#show-password{
+    position: relative;
+    width: 25px;
+    height: 20px;
+}
+
+#forgot-password{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+}
+
+input[type="checkbox" i]{
+    width: 2.2vw;
+    height: 2.2vh;
+    padding: 0;
+    margin-top: 0;
+}
+
+#save-data-div{
+    display: flex;
+    height: 24px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#save-label{
+    width: 11.28vw !important;
+}
+
+
+#info-button{
+    width: 20px;
+    height: 20px;
+    margin-left: 5.1vw;
+}
+
+
+
+#create-acc{
+    margin-top:87.5px;
+    width: 21.1vw;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: left;
+    color:black;
+}
+
+
+
+
+
+.browser-link{
+    text-decoration: none !important;
+}

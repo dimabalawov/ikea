@@ -1,0 +1,40 @@
+.search-div{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-inline: auto;
+    width: 65%;
+    max-width: 95%;
+    height: 50px;
+    position: relative;
+}
+
+.search-img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 45px;
+    top:25px;
+}
+
+.search-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.search-bar{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: white;
+    padding-left: 50px;
+    border: none;
+}
+
+.search-bar::placeholder{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;;
+    position: relative;
+    color: var(--placeholder-grey);
+    font-weight: 500;
+}
