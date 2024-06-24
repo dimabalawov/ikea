@@ -76,7 +76,7 @@ function IdeaPage({ setCurrentPage })
             <ImportantInfo height = '30.5vw' title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info1'></ImportantInfo>
             <ImportantInfo height = "30.5vw" title = 'ІНФОРМАЦІЯ' src = {image1} description = 'Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra' className = 'Important_Info2'></ImportantInfo>
             <Title title = 'ІДЕЇ ДЛЯ ОФОРМЛЕННЯ'></Title>
-            <Carousel images = {CarouselImages} width = "100%"></Carousel>
+            <Carousel images = {CarouselImages}></Carousel>
 
             <Title title = 'ІДЕЇ'></Title>
             <div className='IdeaCards'>
@@ -92,7 +92,7 @@ function IdeaPage({ setCurrentPage })
             
 
             <Title title = 'ІДЕЇ ДЛЯ ОФОРМЛЕННЯ'></Title>
-            <Carousel images = {CarouselImages} width = "1480px"></Carousel>
+            <Carousel images = {CarouselImages}></Carousel>
             
         </div>
     );

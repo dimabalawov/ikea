@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from "./Pages/Components/Header/header";
 import Footer from "./Pages/Components/Footer/Footer";
 import MainPage from "./Pages/Main_page/MainPage";
